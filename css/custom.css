@@ -1,3 +1,22 @@
+:root {
+    --spacing-company: 3rem;
+    --font-weight: 400;
+    --border-radius: 0;
+  }
+
+.hero {
+    /* https://codepen.io/noahblon/pen/DgKbVL */
+    background-color: #394046;
+    background-image: url("/assets/hero.jpg");
+    background-position: center;
+    background-size: cover;
+    min-height: 600px;
+}
+
+header h1 {
+    transform: rotate(-8deg) skew(-8deg, 0);
+}
+
 a[href^="mailto"]::before {
     content: "📧 ";
 }
@@ -5,3 +24,4 @@ a[href^="mailto"]::before {
 a[href^="tel"]::before {
     content: "📞 ";
 }
+
