@@ -4,6 +4,14 @@
     --border-radius: 0;
   }
 
+body, html {
+    font-family: 'PT Sans', sans-serif;
+}
+
+h2, h3 {
+    font-family: 'PT Sans', sans-serif;
+}
+
 .hero {
     /* https://codepen.io/noahblon/pen/DgKbVL */
     background-color: #394046;
@@ -14,7 +22,18 @@
 }
 
 header h1 {
-    transform: rotate(-8deg) skew(-8deg, 0);
+    transform: rotate(-5deg) skew(-5deg);
+    font-family: 'PT Serif', serif;
+    font-size: 64px;
+    text-shadow: -2px -2px 0 rgba(252, 206, 47, 0.5), 6px 6px 4px rgba(0, 0, 0, 1);
+}
+
+header h2 {
+    color: white;
+    transform: rotate(-5deg) skew(-5deg);
+    font-family: 'PT Sans', sans-serif;
+    font-size: 36px !important;
+    text-shadow: -2px -2px 0 rgba(252, 206, 47, 0.5), 6px 6px 4px rgba(0, 0, 0, 1);
 }
 
 a[href^="mailto"]::before {
@@ -25,3 +44,6 @@ a[href^="tel"]::before {
     content: "📞 ";
 }
 
+blockquote {
+    white-space: pre;
+}
